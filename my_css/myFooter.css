@@ -1,0 +1,183 @@
+/* CSS FOR ABOUT PRODCT */
+
+.space-for-about-product {
+    width: 100%;
+    height: auto;
+}
+
+.about-All-product {
+    width: 100%;
+    height: 100%;
+    padding: 50px 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.about-product {
+    width: 100px;
+    height: 160px;
+}
+
+.about-M-i-I {
+    width: 220px;
+}
+
+.about-product p {
+    padding-top: 20px;
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+
+
+
+
+/* footer */
+
+.space-for-footer {
+    /* position: sticky;
+    bottom: 0%; */
+    width: 100%;
+    height: auto;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.87);
+
+}
+
+.universal-footer {
+    padding-top: 50px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sub-universal-footer {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.footerLinks {
+    width: 155px;
+    height: 185px;
+}
+
+.footerLinks h3 {
+    font-size: 18px;
+}
+
+.footerLinks nav {
+    margin-top: 10px;
+}
+
+.footerLinks nav ul {
+    padding: 5px 0 5px 0;
+}
+
+.footerLinks nav ul a {
+    font-size: 15px;
+    color: #a59d9d;
+}
+
+.footerLinks nav ul a:hover {
+    color: #fff;
+}
+
+.know-us {
+    width: 130px;
+}
+
+.terms-cond {
+    width: 160px;
+}
+
+.follow-us {
+    width: 185px;
+    height: 185px;
+}
+
+.follow-us h3 {
+    width: 100%;
+    height: auto;
+    font-size: 18px;
+    text-align: center;
+}
+
+.socialMediaLinks {
+    margin-top: 25px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.linkedin img,
+.twitter img,
+.facebook img,
+.instagram img,
+.youtube img {
+    width: 30px;
+}
+
+.newsletter {
+    width: 300px;
+    height: 185px;
+}
+
+.newsletter h3 {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.newsletter h4 {
+    font-size: 15px;
+    margin: 0 0 10px 0;
+}
+
+.footer-e-mail {
+    width: 300px;
+    height: 40px;
+    font-size: 15px;
+    outline: none;
+    background-color: black;
+    color: white;
+    border: 2px solid rgba(0, 0, 0, 0.87);
+    ;
+}
+
+.universal-footer-2nd {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.name-and-copy {
+    margin: 0 0 20px 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-name {
+    margin-left: 50px;
+    font-size: 15px;
+}
+
+.footer-copy {
+    margin-right: 50px;
+    font-size: 15px;
+}

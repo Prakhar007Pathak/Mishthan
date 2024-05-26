@@ -1,0 +1,374 @@
+.clearfix::before,
+.clearfix::after,
+.dl-horizontal dd::before,
+.dl-horizontal dd::after,
+.container::before,
+.container::after,
+.container-fluid::before,
+.container-fluid::after,
+.row::before,
+.row::after,
+.form-horizontal .form-group::before,
+.form-horizontal .form-group::after,
+.btn-toolbar::before,
+.btn-toolbar::after,
+.btn-group-vertical>.btn-group::before,
+.btn-group-vertical>.btn-group::after,
+.nav::before,
+.nav::after,
+.navbar::before,
+.navbar::after,
+.navbar-header::before,
+.navbar-header::after,
+.navbar-collapse::before,
+.navbar-collapse::after,
+.pager::before,
+.pager::after,
+.panel-body::before,
+.panel-body::after,
+.modal-footer::before,
+.modal-footer::after {
+    display: table;
+    content: " ";
+}
+
+::before,
+::after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.clearfix::after,
+.dl-horizontal dd::after,
+.container::after,
+.container-fluid::after,
+.row::after,
+.form-horizontal .form-group::after,
+.btn-toolbar::after,
+.btn-group-vertical>.btn-group::after,
+.nav::after,
+.navbar::after,
+.navbar-header::after,
+.navbar-collapse::after,
+.pager::after,
+.panel-body::after,
+.modal-footer::after {
+    clear: both;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit;
+}
+
+h1,
+.h1 {
+    font-size: 36px;
+}
+
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+ul,
+ol {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    margin: 0 0 10px;
+}
+
+
+table {
+    border-spacing: 0;
+    border-collapse: collapse;
+    background-color: transparent;
+}
+
+td,
+th {
+    padding: 0;
+}
+
+th {
+    text-align: left;
+}
+
+label {
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: 700;
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+    margin: 0;
+    font: inherit;
+    color: inherit;
+}
+
+input {
+    line-height: normal;
+}
+
+input,
+button,
+select,
+textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+    display: block;
+}
+
+a {
+    color: #abd07e;
+}
+
+a {
+    color: #12cca7;
+}
+
+a {
+    outline: none !important;
+}
+
+a {
+    -webkit-transition: all 0.2s linear 0s;
+    -moz-transition: all 0.2s linear 0s;
+    -o-transition: all 0.2s linear 0s;
+    transition: all 0.2s linear 0s;
+}
+
+a {
+    color: #428bca;
+    text-decoration: none;
+}
+
+a {
+    background: 0 0;
+}
+
+img {
+    vertical-align: middle;
+}
+
+img {
+    border: 0;
+}
+
+
+.forHideDisplay {
+    display: none;
+}
+
+.owl-next,
+.owl-prev {
+    top: 30px !important;
+}
+
+.owl-prev {
+    left: 70px !important;
+}
+
+.outer-top-bd {
+    margin-top: 50px;
+}
+
+/* ========================== Brand Slider ========================= */
+.fadeInUp {
+    -webkit-animation-name: fadeInUp;
+    animation-name: fadeInUp;
+}
+
+.animated {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+#brands-carousel {
+    margin: 20px auto 60px auto;
+}
+
+.section-title {
+    font-size: 20px;
+    font-family: "FjallaOneRegular";
+    border-bottom: 1px solid #e3e3e3;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+    font-weight: 500;
+    line-height: 1.1;
+    width: 90%;
+    margin: 20px auto 10px auto;
+    text-align: center;
+}
+
+.owl-carousel {
+    display: none;
+    position: relative;
+    width: 100%;
+    -ms-touch-action: pan-y;
+}
+
+.owl-carousel .owl-wrapper-outer {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+
+.owl-carousel .owl-wrapper {
+    display: none;
+    position: relative;
+    -webkit-transform: translate3d(0px, 0px, 0px);
+}
+
+.owl-carousel .owl-item {
+    float: left;
+}
+
+.owl-carousel .owl-wrapper,
+.owl-carousel .owl-item {
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+}
+
+/* ========================== Clickable Button ========================= */
+.owl-controls {
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.custom-carousel .owl-controls {
+    position: absolute;
+    right: 70px;
+    top: -25px;
+    width: 100%;
+    display: block;
+
+}
+
+.home-owl-carousel .owl-controls,
+.blog-slider .owl-controls,
+.brand-slider .owl-controls {
+    margin-top: 0px;
+
+}
+
+.owl-controls .owl-page,
+.owl-controls .owl-buttons div {
+    cursor: pointer;
+}
+
+.custom-carousel .owl-controls .owl-prev {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 165px;
+    left: 25px;
+    -webkit-transition: all linear 0.2s;
+    -moz-transition: all linear 0.2s;
+    -ms-transition: all linear 0.2s;
+    -o-transition: all linear 0.2s;
+    transition: all linear 0.2s;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    background: rgba(128, 128, 128, 0.767);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.custom-carousel .owl-controls .owl-prev::before {
+    color: #fff;
+    content: "\f104";
+    font-family: fontawesome;
+    font-size: 20px;
+}
+
+.custom-carousel .owl-controls .owl-next {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 165px;
+    right: -70px;
+    -webkit-transition: all linear 0.2s;
+    -moz-transition: all linear 0.2s;
+    -ms-transition: all linear 0.2s;
+    -o-transition: all linear 0.2s;
+    transition: all linear 0.2s;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    background: rgba(128, 128, 128, 0.767);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.custom-carousel .owl-controls .owl-next::before {
+    content: "\f105";
+    font-family: fontawesome;
+    color: #fff;
+    font-size: 20px;
+}
+
+/* ========================== /.Clickable Button ========================= */
+/* ========================== /.Brand Slider ========================= */

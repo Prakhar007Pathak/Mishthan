@@ -1,0 +1,302 @@
+/*////////// <Slider> ///////// */
+
+.SliderSection {
+    width: 100%;
+    height: 640px;
+}
+
+.forHideDisplay {
+    display: none;
+}
+
+.col-md-9 {
+    margin: 30px 0 0 0;
+    width: 100%;
+    float: left;
+}
+
+
+.mySlider {
+    overflow: hidden;
+    width: 100%;
+    height: 440px;
+    background-color: black;
+}
+
+
+#hero {
+    height: 440px;
+    background-color: #000;
+}
+
+#owl-main {
+    text-align: center;
+    cursor: default;
+    height: 440px;
+    opacity: 1;
+    display: block;
+}
+
+.owl-carousel {
+    display: none;
+    position: relative;
+    width: 100%;
+    -ms-touch-action: pan-y;
+}
+
+.owl-carousel .owl-wrapper-outer {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+
+/*/////////// </Slider>  //////////*/
+
+/*//////// <LINKS section> /////////*/
+.space-for-best-seller {
+    width: 100%;
+    height: auto;
+}
+
+.best-seller {
+    width: 100%;
+    height: 100%;
+}
+
+div.best-seller:nth-child(1)>div:nth-child(1)>div:nth-child(1)>div:nth-child(1),
+div.best-seller:nth-child(1)>div:nth-child(1)>div:nth-child(1)>div:nth-child(2) {
+    float: none;
+}
+
+
+.bestSellerHeading {
+    width: 100vw;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bestSellerHeading h3 {
+    margin-top: 60px;
+    font-size: 50px;
+    letter-spacing: -2px;
+    font-family: 'Righteous', 'cursive';
+}
+
+.tabs-nav {
+    width: 100vw;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tabs-nav__item {
+    margin: 20px 10px;
+    font-size: 14px;
+    background-color: white;
+    border: 2px solid white;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    border-bottom-color: white;
+    cursor: pointer;
+    border-bottom: 2px solid #0000008c;
+}
+
+.tabs-nav__item:hover {
+    border-bottom: 2px solid #0000;
+}
+
+.tabs-nav__item a {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    color: #0000008c;
+    text-decoration: none;
+}
+
+.tabs-nav__item a:hover {
+    font-weight: 600;
+    color: #000;
+}
+
+#product-tabs-slider,
+#secondProductSlider,
+#thirdProductSlider {
+    scroll-margin: 115px 0 0 0;
+}
+
+#forthProductSlider {
+    scroll-margin: 65px 0 0 0;
+}
+
+/*//////// /.<LINKS section> /////////*/
+
+
+
+/*///////// <Product Slider> ////////*/
+
+input,
+button,
+select,
+textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+    -webkit-appearance: button;
+    cursor: pointer;
+}
+
+.scroll-tabs {
+    margin-bottom: 20px;
+}
+
+.inner-bottom-vs {
+    padding-bottom: 20px;
+}
+
+.scroll-tabs .more-info-tab {
+    border-bottom: 1px solid #e3e3e3;
+    padding-bottom: 10px;
+    height: auto;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.scroll-tabs .more-info-tab .new-product-title {
+    text-align: center;
+    margin: 0;
+    float: none;
+    font-size: 20px;
+    font-family: "FjallaOneRegular";
+    text-transform: uppercase;
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit;
+}
+
+/* .pull-left {
+    float: left !important;
+} */
+
+.scroll-tabs .nav-tab-line {
+    position: relative;
+    bottom: 20px;
+    right: 10px;
+    border-bottom: none;
+    /* margin-top: 7px; */
+    /* margin-right: 55px; */
+    line-height: 1.42857143;
+    font-size: 13px;
+    color: #666666;
+}
+
+.pull-right {
+    float: right !important;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+.nav-tabs>li {
+    float: left;
+    margin-bottom: -1px;
+}
+
+.pull-right li {
+    position: relative;
+    display: block;
+}
+
+.scroll-tabs .nav-tab-line li a {
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #666666;
+    font-size: 14px;
+    border: medium none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    padding: 0 15px !important;
+    position: relative;
+    cursor: default;
+    background-color: #fff;
+    margin-right: 2px;
+    line-height: 1.42857143;
+    border-radius: 4px 4px 0 0;
+    display: block;
+    outline: none !important;
+    transition: all 0.2s linear 0s;
+    text-decoration: none;
+}
+
+.scroll-tabs .nav-tab-line li.active a {
+    border: none;
+}
+
+/*//////// </Product Slider> ///////*/
+
+/* ========= Smart Phone Section ========= */
+.outer-top-small {
+    margin-top: 50px;
+}
+
+/* ========= heading========= */
+.section-title {
+    font-size: 20px;
+    font-family: "FjallaOneRegular";
+    border-bottom: 1px solid #e3e3e3;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+    font-weight: 500;
+    line-height: 1.1;
+    width: 90%;
+    margin: 20px auto 10px auto;
+    text-align: center;
+}
+
+/* ========= /heading ========= */
+
+.outer-top-xs {
+    margin-top: 30px;
+}
+
+
+/* ========= /Smart Phone Section ========= */
+
+
+/*========= last Section (shoes) ========*/
+
+
+
+
+.animated {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+.featured-product {
+    margin-bottom: 19px;
+}
+
+.inner-xs {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+/*========= /last Section ========*/
+
+
+/* ========== Our Brands ========= */
+
+
+/* ========== /Our Brands ========= */

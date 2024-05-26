@@ -1,0 +1,311 @@
+a {
+    outline: none !important;
+    -webkit-transition: all 0.2s linear 0s;
+    -moz-transition: all 0.2s linear 0s;
+    -o-transition: all 0.2s linear 0s;
+    transition: all 0.2s linear 0s;
+    color: #428bca;
+    text-decoration: none;
+}
+
+input,
+button,
+select,
+textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+    -webkit-appearance: button;
+    cursor: pointer;
+}
+
+button,
+select {
+    text-transform: none;
+}
+
+element {
+    display: none;
+
+}
+
+.rateit button.rateit-reset {
+    background: url(images/delete.gif) 0 0;
+
+    width: 16px;
+
+    height: 16px;
+
+    display: -moz-inline-box;
+
+    display: inline-block;
+
+    float: left;
+
+    outline: none;
+
+    border: none;
+
+    padding: 0;
+
+}
+
+input,
+button,
+select,
+textarea {
+    font-family: inherit;
+
+    font-size: inherit;
+
+    line-height: inherit;
+
+}
+
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+    -webkit-appearance: button;
+
+    cursor: pointer;
+
+}
+
+button,
+select {
+    text-transform: none;
+
+}
+
+button {
+    overflow: visible;
+}
+
+.displayHidden {
+    display: none;
+}
+
+.outer-top-bd {
+    margin-top: 10px;
+}
+
+.inner-bottom-sm {
+    padding-bottom: 80px;
+}
+
+.col-md-12 {
+    width: 100%;
+    position: relative;
+    min-height: 1px;
+    float: left;
+
+}
+
+table {
+    border-spacing: 0;
+    border-collapse: collapse;
+    background-color: transparent;
+}
+
+.table-responsive {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.table {
+    width: 85%;
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+
+.body-content .my-wishlist-page .my-wishlist table>thead>tr>th,
+.table>tbody>tr>th,
+.table>tfoot>tr>th,
+.table>thead>tr>td,
+.table>tbody>tr>td,
+.table>tfoot>tr>td {
+    vertical-align: middle;
+    border: none;
+    padding: 30px;
+}
+
+.body-content .my-wishlist-page .my-wishlist table>thead>tr>th {
+    text-align: center;
+    font-size: 30px;
+    font-family: "FjallaOneRegular";
+    text-transform: uppercase;
+    border: none;
+    font-weight: 400;
+}
+
+.col-md-2 {
+    width: 16.66666667%;
+}
+
+.col-md-6 {
+    width: 50%;
+}
+
+table td[class*="col-"],
+table th[class*="col-"] {
+    position: static;
+    display: table-cell;
+    float: none;
+}
+
+img {
+    vertical-align: middle;
+    border: 0
+}
+
+.body-content .my-wishlist-page .my-wishlist table tbody .product-name {
+    font-size: 20px;
+    font-family: "FjallaOneRegular";
+    padding-bottom: 6px;
+}
+
+.body-content .my-wishlist-page .my-wishlist table tbody .product-name a {
+    color: #434343;
+}
+
+.rateit {
+    display: -moz-inline-box;
+    display: inline-block;
+    position: relative;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-touch-callout: none;
+}
+
+.body-content .my-wishlist-page .my-wishlist table tbody .rating .rate {
+    color: #ffb400;
+}
+
+::before,
+::after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.body-content .my-wishlist-page .my-wishlist table tbody .rating .non-rate {
+    color: #dcdcdc;
+}
+
+.body-content .my-wishlist-page .my-wishlist table tbody .rating span {
+    font-size: 11px;
+    color: #aaa;
+    padding-left: 10px;
+}
+
+.rateit button.rateit-reset {
+    background: url(images/delete.gif) 0 0;
+    width: 16px;
+    height: 16px;
+    display: -moz-inline-box;
+    display: inline-block;
+    float: left;
+    outline: none;
+    border: none;
+    padding: 0;
+}
+
+
+.rateit .rateit-range {
+    position: relative;
+    display: -moz-inline-box;
+    display: inline-block;
+    background: url(images/star.gif);
+    height: 16px;
+    outline: none;
+}
+
+.rateit .rateit-range * {
+    display: block;
+}
+
+.rateit .rateit-hover,
+.rateit .rateit-selected {
+    position: absolute;
+    left: 0px;
+}
+
+.rateit .rateit-selected {
+    background: url(images/star.gif) left -16px;
+}
+
+.rateit .rateit-hover {
+    background: url(images/star.gif) left -32px;
+}
+
+.body-content .my-wishlist-page .my-wishlist table tbody .price {
+    font-size: 20px;
+    padding-top: 4px;
+    font-weight: bold;
+}
+
+.body-content .my-wishlist-page .my-wishlist table tbody .price {
+    color: #00a300;
+}
+
+.body-content .my-wishlist-page .my-wishlist table tbody .price span {
+    font-size: 15px;
+    color: #ddd;
+    text-decoration: line-through;
+    padding-left: 10px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+.btn-upper {
+    text-transform: uppercase;
+}
+
+.btn-primary {
+    -webkit-transition: all linear 0.2s;
+    -moz-transition: all linear 0.2s;
+    -ms-transition: all linear 0.2s;
+    -o-transition: all linear 0.2s;
+    transition: all linear 0.2s;
+    background: #ff8700;
+    color: #fff;
+    border: none;
+    font-size: 13px;
+    line-height: 22px;
+}
+
+.body-content .my-wishlist-page .my-wishlist table tbody .close-btn a,
+.body-content .my-wishlist-page .my-wishlist table tbody .close-btn a:hover {
+    color: red;
+    font-size: 15px;
+}

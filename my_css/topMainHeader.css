@@ -1,0 +1,266 @@
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', 'Nunito', 'sans-serif';
+}
+
+.header-style-1 {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background-color: #fff;
+}
+
+body {
+    font-size: 13px;
+    color: #666666;
+    line-height: 1.42857143;
+}
+
+/* //////Top Header////// */
+
+
+/* <Removed Items> */
+.top-cart-row {
+    display: none;
+}
+
+/* </Removed Items> */
+
+
+.header-top-inner {
+    max-width: 100%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    background-color: #000;
+    color: #ff8700;
+}
+
+.offers-strip {
+    position: relative;
+    left: 44.5%;
+}
+
+.offers-strip p {
+    color: #ff8700;
+    font-size: 11.5px;
+}
+
+
+
+.cnt-account {
+    position: absolute;
+    top: 45px;
+    left: 85%;
+}
+
+.list-unstyled {
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.liForLogOut {
+    position: absolute;
+    bottom: 62px;
+    right: 75vw;
+    min-width: 200px;
+    max-width: 400px;
+}
+
+.liForLogOut a {
+    color: #ff8700;
+    font-size: 12.5px;
+}
+
+.headerLis {
+    padding: 10px 12px 10px 12px;
+
+}
+
+.headerLis a {
+    text-decoration: none;
+}
+
+.headerLis a i {
+    font-size: 20px;
+    color: #000;
+}
+
+#search-icon {
+    font-size: 22px;
+    color: #000;
+    font-weight: 600;
+}
+
+
+.cnt-block {
+    position: relative;
+    left: 78%;
+    height: 22px;
+    width: 85px;
+    border-radius: 10px;
+    border: #ff8700 1.85px solid;
+}
+
+.dropdown-toggle {
+    text-decoration: none;
+    color: #ff8700;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dropdown-toggle span {
+    padding-top: 1px;
+}
+
+/* //////Main Header////// */
+
+.main-header {
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.23);
+    width: 100%;
+    margin-bottom: 10px;
+    /* position: sticky; */
+    top: 0;
+    z-index: 10;
+}
+
+.main-header>div:nth-child(1) {
+    width: 80%;
+}
+
+.main-header>div:nth-child(1)>div:nth-child(1) {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.top-search-holder {
+    width: 610px;
+    display: flex;
+    justify-content: center;
+    align-content: baseline;
+}
+
+.logo-holder>div:nth-child(1)>a:nth-child(1)>img:nth-child(1) {
+    width: 68px;
+    height: 68px;
+    border-radius: 100%;
+}
+
+/* .top-search-holder {
+    position: relative;
+    right: 20%;
+} */
+
+
+.categories {
+    width: 610px;
+    height: auto;
+    padding: 10px 0;
+}
+
+.categories nav {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.categories nav ul a {
+    font-size: 14px;
+    text-decoration: none;
+    color: black;
+}
+
+#CatSearchBtn {
+    background-color: #fff;
+    border: white 0px;
+    position: absolute;
+    top: 54px;
+    right: 210px;
+}
+
+#CatBackBtn {
+    background-color: #fff;
+    border: white 0px;
+    position: absolute;
+    top: 54px;
+    right: 210px;
+}
+
+#CatBackBtn img {
+    width: 22px;
+    height: 22px;
+}
+
+.header-icon-list {
+    margin-right: 45px;
+    width: 150px;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.search-area {
+    animation: rotateSearch 1s ease-in delay 1;
+}
+
+.control-group {
+    width: 340px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.search-field {
+    background-color: transparent;
+    width: 80%;
+    padding: 1em 0.3em;
+    border: none;
+    box-sizing: border-box;
+    border-bottom: 2px solid #110f29;
+    outline: none;
+}
+
+.search-button {
+    margin-top: 0.5em;
+    margin-left: 1em;
+    padding: 9px 18px;
+    background-color: #ff8700;
+    color: #ffffff;
+    border-radius: 5px;
+    border: none;
+}
+
+
+@keyframes rotateSearch {
+    0% {
+        transform: rotateX(0deg);
+    }
+
+    100% {
+        transform: rotateX(180deg);
+    }
+}
+
+
+/* //////////// Header Categories Navbar (Menu_Bar.css) //////////// */
+
+
+/* this css has its own page */

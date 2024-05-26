@@ -1,0 +1,479 @@
+a {
+    outline: none !important;
+    color: #428bca;
+    text-decoration: none;
+    -webkit-transition: all 0.2s linear 0s;
+    -moz-transition: all 0.2s linear 0s;
+    -o-transition: all 0.2s linear 0s;
+    transition: all 0.2s linear 0s;
+}
+
+.breadcrumb {
+    background: rgba(0, 0, 0, 0);
+    padding: 0;
+    margin-bottom: 20px;
+    list-style: none;
+    /* background-color: #f5f5f5; */
+    border-radius: 4px;
+}
+
+.breadcrumb ul {
+    border-bottom: 1px solid #f2f2f2;
+    margin: auto;
+    padding: 20px 0 10px;
+    text-align: right;
+}
+
+.list-inline {
+    padding-left: 0;
+    margin-left: -5px;
+    list-style: none;
+}
+
+.list-unstyled {
+    padding-left: 0;
+    list-style: none;
+}
+
+.list-inline>li {
+    display: inline-block;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.breadcrumb ul li:last-child::after {
+    content: "";
+}
+
+.breadcrumb ul li::after {
+    color: #666666;
+    content: "/";
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+    line-height: 24px;
+    margin-left: 9px;
+    margin-right: -4px;
+    padding: 0px;
+}
+
+.breadcrumb ul li.active {
+    /* color: #84b943; */
+    color: #666666;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.outer-top-xs {
+    margin-top: 30px;
+}
+
+/* .inner-bottom-sm {
+    padding-bottom: 80px;
+} */
+
+.shopping-cart .shopping-cart-table {
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.col-md-12 {
+    width: 100%;
+    position: relative;
+    min-height: 1px;
+    /* padding-right: 15px; */
+    /* padding-left: 15px; */
+    float: left;
+}
+
+.table-responsive {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.table-responsive>form:nth-child(1) {
+    text-align: center;
+    font-size: 14px;
+    width: 85%;
+}
+
+.shopping-cart .shopping-cart-table table {
+    margin-bottom: 0px !important;
+}
+
+.table-bordered {
+    border: 1px solid #ddd;
+    border-radius: 60px;
+}
+
+.table {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+
+table {
+    background-color: transparent;
+    /* border-collapse: collapse; */
+    border-spacing: 10px;
+}
+
+
+.shopping-cart .shopping-cart-table .table>thead>tr>th {
+    text-align: center;
+    padding: 10px;
+    font-family: "FjallaOneRegular";
+    font-size: 15px;
+    border: 2px solid #ddd;
+}
+
+.table>thead>tr>th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #ddd;
+    border-radius: 50px;
+}
+
+.col-md-12>div:nth-child(1)>form:nth-child(1)>table:nth-child(1)>tfoot:nth-child(2)>tr:nth-child(1)>td:nth-child(1) {
+    vertical-align: middle;
+    border: none;
+    padding: 30px;
+}
+
+.shopping-cart .shopping-cart-table .shopping-cart-btn span {
+    padding: 20px 0px;
+    display: block;
+}
+
+
+.btn {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+
+.btn-upper {
+    text-transform: uppercase;
+}
+
+.btn-primary {
+    -webkit-transition: all linear 0.2s;
+    -moz-transition: all linear 0.2s;
+    -ms-transition: all linear 0.2s;
+    -o-transition: all linear 0.2s;
+    transition: all linear 0.2s;
+    background: #a8a8a8;
+    color: #fff;
+    border: none;
+    font-size: 13px;
+    line-height: 22px;
+}
+
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+    -webkit-appearance: button;
+    cursor: pointer;
+    float: left;
+}
+
+
+
+.body-content .my-wishlist-page .my-wishlist table>thead>tr>th,
+.table>tbody>tr>th,
+.table>tfoot>tr>th,
+.table>thead>tr>td,
+.table>tbody>tr>td,
+.table>tfoot>tr>td {
+    vertical-align: middle;
+    border: none;
+    padding: 20px;
+}
+
+.shopping-cart .shopping-cart-table table tbody tr .romove-item,
+.shopping-cart .shopping-cart-table table tbody tr .cart-product-edit,
+.shopping-cart .shopping-cart-table table tbody tr .cart-product-sub-total,
+.shopping-cart .shopping-cart-table table tbody tr .cart-product-grand-total,
+.shopping-cart .shopping-cart-table table tbody tr .cart-product-quantity {
+    text-align: center;
+}
+
+.shopping-cart .shopping-cart-table table tbody tr td {
+    vertical-align: middle;
+}
+
+.shopping-cart .shopping-cart-table table tbody tr .cart-product-name-info {
+    vertical-align: middle !important;
+}
+
+
+/* ======== Table Body ======== */
+.entry-thumbnail img {
+    width: 150px;
+    height: 150px;
+}
+
+.shopping-cart .shopping-cart-table table tbody tr .cart-product-name-info h4 {
+    margin-top: 0px;
+    font-family: "FjallaOneRegular";
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.shopping-cart .shopping-cart-table table tbody tr .cart-product-name-info h4 a {
+    color: #555;
+    letter-spacing: -.3px;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+
+
+
+.cart-product-description {
+    font-size: 15px;
+}
+
+.reviews {
+    font-size: 13px;
+}
+
+.shopping-cart-table table tbody tr td .quant-input {
+    display: inline-block;
+    height: 35px;
+    position: relative;
+    width: 70px;
+}
+
+.shopping-cart-table table tbody tr td .quant-input .arrows {
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 2;
+}
+
+.shopping-cart-table table tbody tr td .quant-input .arrows .arrow {
+    box-sizing: border-box;
+    cursor: pointer;
+    display: block;
+    text-align: center;
+    width: 40px;
+}
+
+.shopping-cart-table table tbody tr td .quant-input .arrows .arrow {
+    cursor: pointer;
+    text-align: center;
+    position: relative;
+    font-size: 13px;
+}
+
+.shopping-cart-table table tbody tr td .quant-input .arrows .arrow .ir .icon {
+    position: relative;
+}
+
+.shopping-cart-table table tbody tr td .quant-input .arrows .arrow .ir .icon.fa-sort-asc {
+    top: 5px;
+}
+
+.shopping-cart-table table tbody tr td .quant-input .arrows .arrow .ir .icon.fa-sort-desc {
+    top: -7px;
+}
+
+.shopping-cart-table table tbody tr td .quant-input input {
+    background: none repeat scroll 0 0 #ffffff;
+    border: 1px solid #f2f2f2;
+    box-sizing: border-box;
+    font-size: 15px;
+    height: 35px;
+    left: 0;
+    padding: 0 20px 0 18px;
+    position: absolute;
+    top: 0;
+    width: 70px;
+    z-index: 1;
+}
+
+.shopping-cart .shopping-cart-table table tbody tr .cart-product-sub-total span,
+.shopping-cart .shopping-cart-table table tbody tr .cart-product-grand-total span {
+    display: block;
+    font-family: "FjallaOneRegular";
+    font-size: 20px;
+    color: #555;
+    text-transform: uppercase;
+    letter-spacing: -0.5px;
+}
+
+a.btn:nth-child(1) {
+    float: right;
+}
+
+/* ======== /Table Body ======== */
+
+/*============ Shipping Billing Address and Grand Total ============*/
+.forCartDisplay {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    padding: 0 50px;
+}
+
+.col-md-4 {
+    width: 33.33333333%;
+    float: left;
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.edditedTable {
+    border-radius: 20px;
+}
+
+.estimate-title {
+    font-family: "FjallaOneRegular";
+    font-size: 19px;
+    color: #555;
+    text-transform: uppercase;
+    margin-bottom: 2px;
+    margin-top: 0px;
+    display: block;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: 700;
+}
+
+.shopping-cart .estimate-ship-tax table tbody tr td .form-group label,
+.shopping-cart .estimate-ship-tax table tbody tr td .form-group input,
+.blog-page .blog-write-comment .form-group label,
+.blog-page .blog-write-comment .form-group input,
+.contact-page .contact-form form label,
+.contact-page .contact-form form input {
+    font-size: 13px;
+    font-weight: normal;
+    color: #999;
+}
+
+textarea {
+    overflow: auto;
+}
+
+textarea.form-control {
+    height: auto;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-top-color: rgb(204, 204, 204);
+    border-right-color: rgb(204, 204, 204);
+    border-bottom-color: rgb(204, 204, 204);
+    border-left-color: rgb(204, 204, 204);
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+
+.unicase-form-control {
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    border-color: #eee;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    height: auto;
+    padding: 10px 12px;
+}
+
+.shopping-cart .estimate-ship-tax table tbody tr td .form-group label span,
+.blog-page .blog-write-comment label span,
+.contact-page .contact-form form label span,
+.checkout-box .checkout-steps .checkout-step-01 .already-registered-login form .form-group label span {
+    color: red;
+}
+
+.grandTotalTable {
+    border: none;
+    border-radius: 20px;
+    /* border: 4px solid #ddd; */
+    /* border-collapse: collapse; */
+}
+
+.grandTotalTable>thead>tr>th {
+    border-bottom: 4px solid #ddd
+}
+
+.cart-grand-total {
+    font-size: 22px;
+    padding: 25px;
+    color: #00a300;
+}
+
+.cart-checkout-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grandTotalTable>tbody>tr>td {
+    padding: 8px;
+}
+
+/*============ /Shipping Billing Address and Grand Total ============*/
+
+
+/*============ Order History ============*/
+
+.inner-bottom-sm {
+    padding-bottom: 80px;
+}
+
+.shopping-cart .shopping-cart-table table tbody tr .cart-image .entry-thumbnail {
+    display: block;
+    text-align: center;
+}
+/*============ /Order History ============*/
